@@ -11,6 +11,8 @@ d’actionneurs seront disséminés dans l’environnement afin de simuler diver
 
 Enfin, une interface web permettra de suivre le déplacement du robot sur la carte et de visualiser les différents états (mode programmé, mode événementiel).
 
+Afin de créer un environnement pour le robot, nous avons effectué un mapping de la salle en lançant le SLAM avec Gmapping, ainsi nous avons obtenus deux fichiers utiles pour la suite :   
+mapi5new.pgm et mapi5new.yaml.
 
 Le fichier exemple_move_base.py permet au robot d'atteindre trois checkpoints les uns apres les autres sur la map associee.  
-Ajout d'informations sur le niveau de batterie du robot et du laptop. 
+Ajout d'informations sur le niveau de batterie du robot et du netbook. 
