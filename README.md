@@ -1,18 +1,19 @@
 # Turtlebot-Project
-Projet Robotique &amp; Domotique Communicantes (groupe de 4 etudiants)
+## Robotics & Smart Home Communication Project (group of 4 students)
 
-Le but du projet de RDC est de rendre le robot communicant avec l’environnement dans lequel il évolue  en  se  basant  sur  deux  technologies  de  communication:  IEEE  802.11  (Wi-Fi)  et  IEEE 802.15.4 (ZigBee).  
+The goal of this project is to make the robot communicate with the environment in which it operates, based on two communication technologies: **IEEE 802.11 (Wi-Fi)** and **IEEE 802.15.4 (ZigBee)**.
 
-Chaque robot sera équipé d’un netbook connecté en Wi-Fi et également d’une puce ZigBee interfacée via le netbook du robot grâce à un contrôleur Arduino branché en USB.  
+Each robot is equipped with a netbook connected via Wi-Fi, and also a **ZigBee chip** interfaced through the robot's netbook via a **USB-connected Arduino controller**.
 
-En plus  du  robot,  plusieurs  contrôleurs  Arduino  Mega  équipés  de  puce  ZigBee,  de  capteurs  et/ou
-d’actionneurs seront disséminés dans l’environnement afin de simuler divers objets communicants
-(ampoule, serrures de portes, détecteur de fumée). 
+In addition to the robot, several **Arduino Mega controllers** equipped with ZigBee chips, sensors, and/or actuators will be distributed within the environment to simulate various communicating objects (e.g., light bulbs, door locks, smoke detectors).
 
-Enfin, une interface web permettra de suivre le déplacement du robot sur la carte et de visualiser les différents états (mode programmé, mode événementiel).
+Finally, a **web interface** will allow tracking the robot's movement on a map and visualizing its different states (programmed mode, event-driven mode).
 
-Afin de créer un environnement pour le robot, nous avons effectué un mapping de la salle en lançant le SLAM avec Gmapping, ainsi nous avons obtenus deux fichiers utiles pour la suite :   
-mapi5new.pgm et mapi5new.yaml.
+To create an environment for the robot, we performed a mapping of the room by running SLAM with **Gmapping**, resulting in two useful files for further steps:
 
-Le fichier exemple_move_base.py permet au robot d'atteindre trois checkpoints les uns apres les autres sur la map associee.  
-Ajout d'informations sur le niveau de batterie du robot et du netbook. 
+- mapi5new.pgm
+- mapi5new.yaml
+
+  
+The **exemple_move_base.py** file allows the robot to reach **three checkpoint**s consecutively on the associated map.
+Additional information has been added to monitor the robot's battery level and the netbook's battery level.
